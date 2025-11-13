@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width = device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="../../main-css/style.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div class="login-container">
+            <a href="../stores/stores.html" class="logo-login"><img src="../login/assets/media/logo pizzaria.png"></a>
+
+            <div class="login-area">
+                <div class="login-title">login</div> 
+                <form class="login-form" action="/login" method="post">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required autocomplete="username"/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input type="Password" id="Password" name="Password" required autocomplete="current-password"/>
+                    </div>
+
+                    <a href="#" class="password-reset">Esqueceu a Senha</a>
+
+                    <button class="login-button" type="submit">login</button>
+
+                    <div class="form-footer">
+                        <p>Não tem uma conta?</p><a class="register" href="/register">cadastrar</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        
+
+        
+        
+    </body>
+    <script src="../../main-js/script.js"></script>
+    <script src="js/script.js"></script>
+</html>
